@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0">
+        <title>Java-Chat</title>
+        <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script defer src="js/client.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>
+            <img class="logo" src="java.gif">
+           
+            <h1>Ed-Chat</h1>
+        </nav>
+        <div class="container">
+            <!-- <div class="message right">Rishabh: This is a private chatting app</div>
+            <div class="message left">Artificial Intelligence: Enjoy this app</div> -->
+            <div style="text-align: center; font-size: 100px; color: rgb(129, 209, 129);
+             position: relative; bottom: 10px;">
+                Presented before you by
+            </div>
+            <div  style="text-align: center; font-size: 100px; color: rgb(94, 100, 100);
+            ">Rishabh</div>
+
+        </div> 
+        <div class="send">
+            <form action="#" id="send-container" autocomplete="off">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Type your message here...">
+            <button class="btn" type="submit">
+                Send
+            </button></form>
+            </form>
+        </div>
+    </body>
+</html>
