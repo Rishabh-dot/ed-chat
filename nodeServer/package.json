@@ -11,7 +11,7 @@
   "author": "Rishabh Kumar",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
